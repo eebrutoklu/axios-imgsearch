@@ -1,0 +1,53 @@
+.App {
+  margin: 10px;
+}
+
+.SeacrhDiv {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.SeacrhDiv form {
+  display: flex;
+  flex-direction: column;
+}
+
+.SeacrhDiv form input {
+  margin-top: 5px;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+  :focus {
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  }
+}
+
+.imageList {
+  columns: 250px 5;
+  column-gap: 10px;
+}
+
+.imageListImg {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.imageListImg:hover {
+  transform: scale(1.1);
+  transition: transform 0.9s;
+}
+.SeacrhDiv label {
+  font-weight: bold;
+}
